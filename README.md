@@ -21,7 +21,7 @@ Run the skills in this order:
 
 ```text
 $search-jobs
-Find Node-family backend JD candidates from supported sources, save them to SQLite, write a Markdown report, then tell me the row count and report path.
+Find Node-family backend JD candidates.
 ```
 
 ```text
@@ -31,7 +31,7 @@ Fill missing company profile enrichment for the collected companies, using exact
 
 ```text
 $query-jobs
-Give me the default deduped JD query across all platforms, joined with company profile scores and detail URLs.
+Query and show me top 20 jobs.
 ```
 
 ```text
@@ -45,7 +45,7 @@ Create a Markdown report from the current SQLite database with a short summary f
 | --- | --- |
 | `$search-jobs` | Collects and normalizes JD candidates into `job_listings` |
 | `$jobplanet-company-profiles` | Enriches companies in `company_profiles` |
-| `$query-jobs` | Produces reusable SQL for JD + company score review |
+| `$query-jobs` | Shows JD candidates with company score fields and detail URLs |
 | `$db-markdown-report` | Exports DB summaries or query results as Markdown |
 
 Skills live in:

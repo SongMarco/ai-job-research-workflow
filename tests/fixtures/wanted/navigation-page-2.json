@@ -1,0 +1,19 @@
+{
+  "data": [
+    {
+      "id": 222,
+      "position": "Frontend Engineer",
+      "company": {
+        "name": "Frontend Studio"
+      }
+    },
+    {
+      "id": 333,
+      "position": "Platform Engineer",
+      "company": {
+        "name": "Platform Works"
+      }
+    }
+  ],
+  "links": {}
+}

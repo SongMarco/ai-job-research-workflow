@@ -1,0 +1,32 @@
+{
+  "name": "ai-job-research-workflow",
+  "version": "0.1.0",
+  "license": "MIT",
+  "description": "Codex skill-first workflow for AI-assisted job research automation",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "search-jobs": "tsx src/search-jobs/cli.ts",
+    "jobplanet:profiles": "tsx src/jobplanet-company-profiles/cli.ts"
+  },
+  "packageManager": "pnpm@10.32.1",
+  "dependencies": {
+    "better-sqlite3": "^12.9.0",
+    "playwright": "^1.59.1",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^25.5.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3",
+    "vitest": "^4.1.0"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "better-sqlite3",
+      "esbuild"
+    ]
+  }
+}

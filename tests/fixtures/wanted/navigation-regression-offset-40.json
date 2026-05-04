@@ -1,0 +1,27 @@
+{
+  "data": [
+    { "id": 1001, "company": { "id": 501, "name": "Alpha Labs" }, "position": "Backend Engineer", "annual_from": 5, "annual_to": 10 },
+    { "id": 1002, "company": { "id": 502, "name": "Beta Studio" }, "position": "Platform Engineer", "annual_from": 4, "annual_to": 8 },
+    { "id": 1003, "company": { "id": 503, "name": "Gamma Works" }, "position": "Node.js Engineer", "annual_from": 3, "annual_to": 7 },
+    { "id": 1004, "company": { "id": 504, "name": "Delta Systems" }, "position": "API Engineer", "annual_from": 5, "annual_to": 12 },
+    { "id": 1005, "company": { "id": 505, "name": "Echo Data" }, "position": "Backend Developer", "annual_from": 2, "annual_to": 6 },
+    { "id": 1006, "company": { "id": 506, "name": "Foxtrot AI" }, "position": "Server Engineer", "annual_from": 6, "annual_to": 10 },
+    { "id": 1007, "company": { "id": 507, "name": "Graph Labs" }, "position": "Product Engineer", "annual_from": 3, "annual_to": 9 },
+    { "id": 1008, "company": { "id": 508, "name": "Harbor Cloud" }, "position": "Cloud Backend Engineer", "annual_from": 5, "annual_to": 11 },
+    { "id": 1009, "company": { "id": 509, "name": "Ion Stack" }, "position": "NestJS Developer", "annual_from": 4, "annual_to": 9 },
+    { "id": 1010, "company": { "id": 510, "name": "Juno Tools" }, "position": "TypeScript Backend Engineer", "annual_from": 5, "annual_to": 10 },
+    { "id": 1011, "company": { "id": 511, "name": "Kappa Flow" }, "position": "Backend Engineer", "annual_from": 3, "annual_to": 8 },
+    { "id": 1012, "company": { "id": 512, "name": "Lambda Works" }, "position": "Platform Backend Engineer", "annual_from": 5, "annual_to": 10 },
+    { "id": 1013, "company": { "id": 513, "name": "Metro API" }, "position": "API Platform Engineer", "annual_from": 4, "annual_to": 8 },
+    { "id": 1014, "company": { "id": 514, "name": "Nova Stack" }, "position": "Backend Engineer", "annual_from": 5, "annual_to": 12 },
+    { "id": 1015, "company": { "id": 515, "name": "Orbit Data" }, "position": "Data Platform Engineer", "annual_from": 3, "annual_to": 7 },
+    { "id": 1016, "company": { "id": 516, "name": "Pulse Systems" }, "position": "Node Platform Engineer", "annual_from": 4, "annual_to": 9 },
+    { "id": 1017, "company": { "id": 517, "name": "Quartz Labs" }, "position": "Backend Developer", "annual_from": 5, "annual_to": 10 },
+    { "id": 1018, "company": { "id": 518, "name": "River Cloud" }, "position": "Cloud API Engineer", "annual_from": 3, "annual_to": 8 },
+    { "id": 1019, "company": { "id": 519, "name": "Signal Works" }, "position": "Server Engineer", "annual_from": 6, "annual_to": 12 },
+    { "id": 1020, "company": { "id": 520, "name": "Tensor Tools" }, "position": "Backend Engineer", "annual_from": 4, "annual_to": 10 }
+  ],
+  "links": {
+    "next": "/api/chaos/navigation/v1/results?job_group_id=518&job_ids=895&country=kr&job_sort=job.latest_order&years=5&years=10&locations=all&limit=20&offset=60"
+  }
+}

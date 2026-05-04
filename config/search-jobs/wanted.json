@@ -1,0 +1,17 @@
+{
+  "queries": [
+    {
+      "key": "node_backend_public_demo",
+      "profile": "Node-family backend research profile",
+      "years": 5,
+      "maxCandidates": 300,
+      "pageSize": 100,
+      "urlSeeds": [
+        {
+          "url": "https://www.wanted.co.kr/wdlist/518/895?country=kr&job_sort=job.popularity_order&years=5&years=10&employment_types=job.employment_type.regular&locations=all"
+        }
+      ],
+      "notes": "Public demo query for a Node-family backend research workflow."
+    }
+  ]
+}

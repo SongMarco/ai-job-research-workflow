@@ -1,0 +1,14 @@
+node_modules/
+dist/
+coverage/
+.env
+.env.*
+!.env.example
+results/
+.html-snapshots/
+data/
+*.db
+*.db-shm
+*.db-wal
+.DS_Store
+.worktrees/

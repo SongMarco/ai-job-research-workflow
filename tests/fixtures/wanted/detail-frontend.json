@@ -1,0 +1,17 @@
+{
+  "job": {
+    "id": 222,
+    "position": "프론트엔드 개발자",
+    "company": { "name": "Beta Studio" },
+    "annual_from": 3,
+    "annual_to": 8,
+    "address": { "location": "서울" },
+    "skill_tags": [{ "title": "React" }],
+    "detail": {
+      "intro": "사용자 경험을 개선합니다.",
+      "main_tasks": "React UI 개발",
+      "requirements": "프론트엔드 개발 경험",
+      "preferred_points": "API 협업 경험"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "total_count": 2,
+  "data": [
+    {
+      "id": 111,
+      "position": "Senior Backend Engineer",
+      "company": {
+        "name": "Backend Labs"
+      },
+      "annual_from": 70000000,
+      "annual_to": 110000000
+    },
+    {
+      "id": 222,
+      "position": "Frontend Engineer",
+      "company": {
+        "name": "Frontend Studio"
+      },
+      "annual_from": 60000000,
+      "annual_to": 90000000
+    }
+  ]
+}

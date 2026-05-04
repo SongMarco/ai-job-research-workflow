@@ -1,0 +1,33 @@
+{
+  "data": [
+    {
+      "id": 111,
+      "position": "Senior Backend Engineer",
+      "company": {
+        "name": "Backend Labs"
+      },
+      "address": {
+        "location": "서울",
+        "full_location": "서울 강남구"
+      },
+      "annual_from": 70000000,
+      "annual_to": 110000000,
+      "employment_type": "정규직",
+      "category_tag": {
+        "parent_id": 518,
+        "id": 895,
+        "text": "서버 개발자"
+      }
+    },
+    {
+      "id": 222,
+      "position": "Frontend Engineer",
+      "company": {
+        "name": "Frontend Studio"
+      }
+    }
+  ],
+  "links": {
+    "next": "https://www.wanted.co.kr/api/chaos/navigation/v1/results?job_group_id=518&job_ids=895&country=kr&job_sort=job.latest_order&years=5&years=10&locations=all&limit=2&offset=2"
+  }
+}

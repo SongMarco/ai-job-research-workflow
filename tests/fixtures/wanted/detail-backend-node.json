@@ -1,0 +1,19 @@
+{
+  "job": {
+    "id": 111,
+    "position": "Node.js 백엔드 개발자",
+    "company": { "name": "Alpha Labs" },
+    "annual_from": 5,
+    "annual_to": 10,
+    "address": { "location": "서울", "full_location": "서울 강남구" },
+    "due_time": "2026-06-30",
+    "category_tag": { "parent_id": 518, "id": 895, "text": "서버 개발자" },
+    "skill_tags": [{ "title": "Node.js" }, { "title": "TypeScript" }],
+    "detail": {
+      "intro": "Alpha Labs는 API 플랫폼을 만듭니다.",
+      "main_tasks": "Node.js 기반 서버 개발\nREST API 설계",
+      "requirements": "백엔드 개발 5년 이상\nTypeScript 사용 경험",
+      "preferred_points": "NestJS 경험"
+    }
+  }
+}

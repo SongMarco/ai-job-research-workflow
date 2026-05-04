@@ -54,14 +54,6 @@ Skills live in:
 .codex/skills/
 ```
 
-## CLI Equivalents
-
-```bash
-pnpm search-jobs -- wanted --query node_backend_public_demo
-pnpm search-jobs -- remember --query node_backend_remember
-pnpm jobplanet:profiles -- --dry-run
-```
-
 Default local outputs:
 
 ```txt

@@ -1,9 +1,9 @@
 ---
-name: jd-jobplanet-query
-description: Use when ai-job-research-workflow users need SQL to query job_listings/JDs joined with JobPlanet company scores across Remember, Wanted, or all platforms.
+name: query-jobs
+description: Use when codex-job-finder users need SQL to query job_listings/JDs joined with JobPlanet company scores across Remember, Wanted, or all platforms.
 ---
 
-# jd-jobplanet-query
+# query-jobs
 
 Use this when the user asks for JD/job listing queries that include JobPlanet rating, review count, JobPlanet URL, and JD detail links.
 

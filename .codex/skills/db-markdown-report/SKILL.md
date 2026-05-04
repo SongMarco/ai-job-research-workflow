@@ -1,6 +1,6 @@
 ---
 name: db-markdown-report
-description: Use when ai-job-research-workflow SQLite data needs to be inspected, queried, summarized, or exported as a Markdown report from one or more DB tables.
+description: Use when codex-job-finder SQLite data needs to be inspected, queried, summarized, or exported as a Markdown report from one or more DB tables.
 ---
 
 # db-markdown-report

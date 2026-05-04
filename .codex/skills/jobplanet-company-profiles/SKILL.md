@@ -1,6 +1,6 @@
 ---
 name: jobplanet-company-profiles
-description: Use when ai-job-research-workflow company_profiles need JobPlanet ratings, review counts, remaining not_collected rows, legacy imports, or safe public collection/import handling.
+description: Use when codex-job-finder company_profiles need JobPlanet ratings, review counts, remaining not_collected rows, legacy imports, or safe public collection/import handling.
 ---
 
 # jobplanet-company-profiles

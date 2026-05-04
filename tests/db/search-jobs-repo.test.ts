@@ -8,7 +8,7 @@ import type { CanonicalJobListing } from '../../src/search-jobs/types.js';
 let tempDirs: string[] = [];
 
 function tempDb(): string {
-  const dir = mkdtempSync(join(tmpdir(), 'ai-job-research-workflow-'));
+  const dir = mkdtempSync(join(tmpdir(), 'codex-job-finder-'));
   tempDirs.push(dir);
   return join(dir, 'headhunter.db');
 }

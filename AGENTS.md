@@ -11,7 +11,7 @@ them, read the matching `SKILL.md` before acting:
 
 - `search-jobs`
 - `jobplanet-company-profiles`
-- `jd-jobplanet-query`
+- `query-jobs`
 - `db-markdown-report`
 
 ## Safety

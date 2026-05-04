@@ -1,4 +1,4 @@
-# AI Job Research Workflow
+# codex-job-finder
 
 Codex skill-first workflow for job research automation.
 
@@ -8,8 +8,8 @@ the facts. Markdown makes the result reviewable.
 ## Install
 
 ```bash
-git clone https://github.com/SongMarco/ai-job-research-workflow.git
-cd ai-job-research-workflow
+git clone https://github.com/SongMarco/codex-job-finder.git
+cd codex-job-finder
 pnpm install
 pnpm test
 pnpm typecheck
@@ -30,7 +30,7 @@ Fill missing company profile enrichment for the collected companies, using exact
 ```
 
 ```text
-$jd-jobplanet-query
+$query-jobs
 Give me the default deduped JD query across all platforms, joined with company profile scores and detail URLs.
 ```
 
@@ -45,7 +45,7 @@ Create a Markdown report from the current SQLite database with a short summary f
 | --- | --- |
 | `$search-jobs` | Collects and normalizes JD candidates into `job_listings` |
 | `$jobplanet-company-profiles` | Enriches companies in `company_profiles` |
-| `$jd-jobplanet-query` | Produces reusable SQL for JD + company score review |
+| `$query-jobs` | Produces reusable SQL for JD + company score review |
 | `$db-markdown-report` | Exports DB summaries or query results as Markdown |
 
 Skills live in:

@@ -1,4 +1,4 @@
-export const PROJECT_NAME = 'ai-job-research-workflow';
+export const PROJECT_NAME = 'codex-job-finder';
 
 export {
   classifyRememberPosting,

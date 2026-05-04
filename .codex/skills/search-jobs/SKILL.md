@@ -1,11 +1,11 @@
 ---
 name: search-jobs
-description: Deterministically search Wanted for the public Node-family backend job search and store SQLite plus Markdown results.
+description: Deterministically search supported job sources for public Node-family backend JD research and store SQLite plus Markdown results.
 ---
 
 # search-jobs
 
-Use when the user invokes `$search-jobs` or asks to run the Codex Wanted search workflow.
+Use when the user invokes `$search-jobs` or asks to run the Codex job-search workflow for Wanted or Remember.
 
 ## User UX
 
@@ -17,7 +17,7 @@ $search-jobs
 
 Equivalent intent:
 
-- Wanted-only
+- default source: Wanted
 - Node-family backend research profile
 - default named query: `node_backend_public_demo`
 - detail API collection enabled
@@ -30,7 +30,10 @@ Supported overrides:
 ```text
 $search-jobs wanted --query node_backend_public_demo
 $search-jobs wanted --url "https://www.wanted.co.kr/wdlist/518/895?country=kr&job_sort=job.popularity_order&years=5&years=10&employment_types=job.employment_type.regular&locations=all"
+$search-jobs remember --query node_backend_remember
 ```
+
+Remember mode is detail-first and keeps only listings whose title/detail/body has a Node-family positive signal such as `node`, `nest`, or `typescript`.
 
 ## Internal command
 
@@ -38,6 +41,8 @@ Run the deterministic repo-local CLI/module:
 
 ```bash
 pnpm search-jobs
+pnpm search-jobs -- wanted --query node_backend_public_demo
+pnpm search-jobs -- remember --query node_backend_remember
 ```
 
 Dry-run the collection plan without fetching:

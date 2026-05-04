@@ -5,7 +5,7 @@ description: Deterministically search supported job sources for public Node-fami
 
 # search-jobs
 
-Use when the user invokes `$search-jobs` or asks to run the Codex job-search workflow for Wanted or Remember.
+Use when the user invokes `$search-jobs` or asks to run the Codex job-search workflow for Wanted, Remember, or both.
 
 ## User UX
 
@@ -17,13 +17,15 @@ $search-jobs
 
 Equivalent intent:
 
-- default source: Wanted
+- default sources: Wanted and Remember
 - Node-family backend research profile
-- default named query: `node_backend_public_demo`
+- default named queries: `node_backend_public_demo` for Wanted, `node_backend_remember` for Remember
 - detail API collection enabled
 - backend cheap filter
 - SQLite DB: `data/headhunter.db`
-- Markdown report: `results/search-jobs/<run-id>-wanted.md`
+- Markdown reports:
+  - `results/search-jobs/<run-id>-wanted.md`
+  - `results/search-jobs/<run-id>-remember.md`
 
 Supported overrides:
 
@@ -37,10 +39,16 @@ Remember mode is detail-first and keeps only listings whose title/detail/body ha
 
 ## Internal command
 
-Run the deterministic repo-local CLI/module:
+For the default `$search-jobs`, run both deterministic repo-local CLI/module commands, Wanted first and then Remember:
 
 ```bash
-pnpm search-jobs
+pnpm search-jobs -- wanted --query node_backend_public_demo
+pnpm search-jobs -- remember --query node_backend_remember
+```
+
+For explicit single-source requests, run only the requested source:
+
+```bash
 pnpm search-jobs -- wanted --query node_backend_public_demo
 pnpm search-jobs -- remember --query node_backend_remember
 ```

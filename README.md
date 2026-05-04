@@ -5,6 +5,10 @@ Codex skill-first workflow for job research automation.
 Codex runs the workflow. TypeScript CLIs do the deterministic work. SQLite keeps
 the facts. Markdown makes the result reviewable.
 
+## Demo
+
+https://github.com/user-attachments/assets/348d3d60-7fcc-47d6-8ddc-be2fec4b0fbf
+
 ## Install
 
 ```bash
